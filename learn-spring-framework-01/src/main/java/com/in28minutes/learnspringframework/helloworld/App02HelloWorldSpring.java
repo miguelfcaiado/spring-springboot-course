@@ -33,7 +33,7 @@ public class App02HelloWorldSpring {
 			String beanNames[] = context.getBeanDefinitionNames();
 			System.out.println(Arrays.toString(beanNames));
 			
-			// Tried this but I was getting an error
+			// Or
 			//Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);	
 		}
 	}
